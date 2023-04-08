@@ -7,7 +7,7 @@ from imblearn.over_sampling import SMOTE
 import pickle
 from imblearn.under_sampling import RandomUnderSampler
 
-
+#calculated through gradient decent
 df = pd.read_csv("healthcare-dataset-stroke-data.csv")
 
 #drops rows with null values
